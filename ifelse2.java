@@ -1,13 +1,13 @@
-/*Find if the input character is ‘a’ or not.
-Note: Input characters will be lowercase alphabets.*/
-public class ifelse {
+/*Find if the input value is odd or even. If it’s odd print “Odd”, 
+otherwise print “Even”.Note: Input value will be between & and &0^6.*/
+public class ifelse2 {
     public static void main(String[] args) {
-        char ch = 'a';
-        if(ch == 'a') {
-            System.out.println("input character is a");
+        int value=4;
+        if(value%2==0) {
+            System.out.println("even");
         }
         else {
-            System.out.println("input character is not a");
+            System.out.println("odd");
         }
     }
 }
